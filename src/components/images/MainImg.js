@@ -1,3 +1,7 @@
+/*
+ * @Date: 2020-07-06 15:32:00
+ * @LastEditTime: 2020-07-07 13:46:13
+ */ 
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
@@ -23,14 +27,6 @@ const Image = () => {
           }
           fluid {
             ...GatsbyImageSharpFluid
-          }
-        }
-      }
-
-      b: file(relativePath: { eq: "logo.png" }) {
-        childImageSharp {
-          fixed(width: 83, height: 53) {
-            ...GatsbyImageSharpFixed
           }
         }
       }
