@@ -2,5 +2,6 @@
 
 $rem-baseline: 48px;
 html {
-  @include $rem-baseline;
+  //   @extend $rem-baseline;
+  font-size: $rem-baseline;
 }
