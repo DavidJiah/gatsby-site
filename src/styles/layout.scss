@@ -1,0 +1,42 @@
+@import "./rem";
+
+footer {
+  background: #27272f;
+  padding: 30px 0;
+}
+
+.footer-item {
+  font-size: rem(20px);
+  display: block;
+  text-align: center;
+  color: #41414d;
+}
+
+header {
+  position: absolute;
+  z-index: 1;
+  padding: rem(30px);
+  width: 100%;
+  transition: all 0.3s;
+}
+
+.header--expand {
+  background: #ffffff;
+  box-shadow: 0px 2px 5px 0px rgba(3, 0, 31, 0.1);
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hamburg-img {
+  height: 20px;
+}
+
+.menu {
+  position: absolute;
+  top: 47px;
+  width: 100%;
+}
